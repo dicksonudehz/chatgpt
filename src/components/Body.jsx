@@ -185,7 +185,7 @@ function Body() {
       </div>
       <div className="mainFeatureContainer">
         <div className="leftFeatureContainer">
-          <img src={mainfeatureimg} alt="" />
+          <img src={mainfeatureimg} alt="service description" />
         </div>
         <div className="rightFeatureContainer">
           <h3>request early access to get started</h3>
@@ -224,7 +224,7 @@ function Body() {
         <div className="blogMessageContainer">
           <div className="leftBlogTitleContainer">
             <div className="leftImgHolder">
-              <img src={Rectangle4holder} alt="" />
+              <img src={Rectangle4holder} alt="service description" />
             </div>
             <div className="leftTittleContainer">
               <div className="leftTitlesItems">
@@ -243,7 +243,7 @@ function Body() {
           <div className="rightBlogTitleContainer">
             <div className="rightBlogContainer">
               <div className="rightImgHolder">
-                <img src={Rectangle1holder} alt="" />
+                <img src={Rectangle1holder} alt="info description" />
               </div>
               <div className="rightTitleContainer">
                 <div className="rightTitleItems">
@@ -259,7 +259,7 @@ function Body() {
             </div>
             <div className="rightBlogContainer">
               <div className="rightImgHolder">
-                <img src={Rectangle1holder} alt="" />
+                <img src={Rectangle1holder} alt="service description" />
               </div>
               <div className="rightTitleContainer">
                 <div className="rightTitleItems">
@@ -275,7 +275,7 @@ function Body() {
             </div>
             <div className="rightBlogContainer">
               <div className="rightImgHolder">
-                <img src={Rectangle1holder} alt="" />
+                <img src={Rectangle1holder} alt="service description" />
               </div>
               <div className="rightTitleContainer">
                 <div className="rightTitleItems">
@@ -292,7 +292,7 @@ function Body() {
             <div className="test1"></div>
             <div className="rightBlogContainer">
               <div className="rightImgHolder">
-                <img src={Rectangle1holder} alt="" />
+                <img src={Rectangle1holder} alt="service description" />
               </div>
               <div className="rightTitleContainer">
                 <div className="rightTitleItems">

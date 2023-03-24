@@ -41,7 +41,7 @@ function Nav() {
           </div>
         </div>
         <div className="rightNavContainer">
-          <img src={illustrator} alt="right nav image holder" className="image" />
+          <img src={illustrator} alt="right nav holder" className="image" />
         </div>
       </div>
       <div className="sponsorContainer">
