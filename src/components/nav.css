@@ -143,7 +143,173 @@ input[type="text"]:focus {
   background-color: #040c18;
 }
 .sponsorContainer img {
-  padding: 20px ;
+  padding: 20px;
   object-fit: cover;
   width: 10%;
+}
+
+/* nav mobile styling  */
+@media screen and (max-width: 960px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  .mainNavContentContainer {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .navContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 40px 20px 10px 20px;
+  }
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  .leftContainer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .leftContainer ul li {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .rightContainer {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .rightContainer span {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .rightContainer button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #ff4820;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .navBodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 0px 20px;
+    background-color: #040c18;
+  }
+  .leftBodyContainer {
+    flex: 7;
+    align-content: flex-start;
+  }
+  .rightNavContainer {
+    flex: 5;
+    align-items: flex-end;
+  }
+  .leftBodyContainer h1 br {
+    display: none;
+  }
+  .leftBodyContainer h1 {
+    background-image: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+    background-clip: text;
+    scroll-behavior: initial;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 800;
+    text-transform: capitalize;
+  }
+  .leftBodyContainer p {
+    color: #81afdd;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .signupContainer {
+    align-items: center;
+    display: flex;
+  }
+  .signupContainer input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border: 1px solid  #81AFDD; */
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: #052d56;
+    border: none;
+    color: white;
+  }
+
+  input[type="text"]:focus {
+    border: none;
+    outline: none;
+    padding-left: 11px;
+  }
+  .signupContainer ::placeholder {
+    padding-left: 10px;
+    text-transform: capitalize;
+    align-items: center;
+    color: white;
+  }
+  .signupContainer button {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: #ff4820;
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .image {
+    width: 95%;
+    object-fit: cover;
+  }
+
+  .sponsorContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #040c18;
+    padding: 0px 20px;
+  }
+  .sponsorContainer img {
+    padding: 20px;
+    object-fit: cover;
+    width: 20%;
+  }
 }

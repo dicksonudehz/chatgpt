@@ -9,7 +9,7 @@ import shopifylogo from '../assets/shopify.png'
 
 function Nav() {
   return (
-    <>
+    <div className="mainNavContentContainer">
       <div className="navContainer">
         <div className="leftContainer">
           <ul>
@@ -51,7 +51,7 @@ function Nav() {
         <img src={slacklogo} alt="google logo" />
         <img src={shopifylogo} alt="google logo" />
       </div>
-    </>
+    </div>
   );
 }
 

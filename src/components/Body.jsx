@@ -108,7 +108,7 @@ function Body() {
             You Just Need To Realize
             <br />
             It. Step into Future Today
-            <br />& Make it Happen
+            <br /> & Make it Happen
           </h1>
           <h3>request early access to get started</h3>
         </div>
