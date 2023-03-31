@@ -4,6 +4,19 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+.checkToogle{
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 6px;
+  display: none;
+}
+.navMenuIcon{
+  color: white;
+  margin-left: 20px;
+  position: relative;
+  display: none;
+}
 .navContainer {
   display: flex;
   flex-direction: row;
@@ -45,7 +58,7 @@
   cursor: pointer;
 }
 .rightContainer button {
-  padding: 15px 45px;
+  padding: 10px 45px;
   color: white;
   background-color: #ff4820;
   border: none;
@@ -159,6 +172,9 @@ input[type="text"]:focus {
   .mainNavContentContainer {
     overflow-x: hidden;
     width: 100%;
+    background-color: #040c18;
+    padding-top: 30px;
+
   }
   .navContainer {
     display: flex;
@@ -167,6 +183,41 @@ input[type="text"]:focus {
     align-items: flex-start;
     width: 100%;
     padding: 40px 20px 10px 20px;
+
+  }
+  .navToogle{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    background-color: #040c18;
+    display: inline;
+  }
+  .checkToogle{
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 6px;
+    display: block;
+  }
+  .navMenuIcon{
+    color: white;
+    display: none;
+    /* background-color: red; */
+    /* margin-left: 20px; */
+    /* position: relative; */
+  }
+  .checkToogle:checked ~ #toogleContainer{
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    transition: all 1s ease;
+  }
+  #toogleContainer{
+    display: none;
   }
   .leftContainer {
     display: flex;
@@ -192,6 +243,7 @@ input[type="text"]:focus {
     justify-content: flex-start;
     align-items: flex-start;
   }
+
   .rightContainer {
     justify-content: flex-start;
     align-items: center;

@@ -351,6 +351,7 @@
   }
   .MainbodyContainer {
     background-color: #040c18;
+    
     /* overflow-x: hidden; */
     /* width: 100%; */
   }
@@ -363,6 +364,8 @@
     padding-bottom: 50px;
     padding-right: 50px;
     padding-left: 50px;
+    margin-top: 20px;
+
     /* overflow-x: hidden; */
     /* width: 100%; */
   }
