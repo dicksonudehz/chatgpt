@@ -12,9 +12,9 @@ function Nav() {
   return (
     <div className="mainNavContentContainer">
       
-      {/* <div className="navToogle"> */}
+      <div className="navToogle">
           <MenuIcon className="navMenuIcon"/>
-        {/* </div> */}
+        </div>
           <input type="checkbox" className="checkToogle" />
           <div id="toogleContainer">
       <div className="navContainer" id="navContainerCont">
