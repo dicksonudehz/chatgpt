@@ -333,10 +333,10 @@ input[type="text"]:focus {
     color: white;
   }
   .signupContainer button {
-    padding-top: 15px;
+    padding-top: 7px;
     padding-right: 30px;
     padding-left: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 7px;
     border: none;
     background-color: #ff4820;
     color: white;
