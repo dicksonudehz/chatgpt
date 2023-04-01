@@ -14,6 +14,9 @@ display: none;
   position: relative;
   display: none;
 }
+.navToogle h1{
+  display: none;
+}
 .navContainer {
   display: flex;
   flex-direction: row;
@@ -183,9 +186,10 @@ input[type="text"]:focus {
 
   }
   .navToogle{
-    display: block;
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     position: relative;
     margin-top: 20px;
     cursor: pointer;
@@ -193,6 +197,12 @@ input[type="text"]:focus {
     /* z-index: -999; */
     /* opacity: 0.5; */
 
+  }
+  .navToogle h1{
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
   }
  .checkToogle{
   position: absolute;

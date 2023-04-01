@@ -14,13 +14,14 @@ function Nav() {
       
       <div className="navToogle">
           <MenuIcon className="navMenuIcon"/>
+          <h1>GPT-3</h1>
         </div>
           <input type="checkbox" className="checkToogle" />
           <div id="toogleContainer">
       <div className="navContainer" id="navContainerCont">
         <div className="leftContainer">
           <ul>
-            <li>GPT-3</li>
+            {/* <li>GPT-3</li> */}
             <li>Home</li>
             <li>what is GPT?</li>
             <li>Open AI</li>
